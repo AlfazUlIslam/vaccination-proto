@@ -1,0 +1,74 @@
+@keyframes slide-up-animation {
+    0% {
+        @apply mt-14
+    }
+    100% {
+        @apply mt-4
+    }
+}
+
+.slide-up {
+    animation: slide-up-animation 0.3s linear;
+}
+
+.navbar {
+    @apply w-[100%] absolute;
+}
+
+.navbar-container {
+    @apply w-[305px] py-6 mx-auto flex justify-between
+    items-center sm:w-[500px] md:w-[668px] lg:w-[990px] 
+    xl:w-[1300px];
+}
+
+.navbar-logo {
+    @apply w-[140px] sm:w-[200px];
+}
+
+.navbar-links {
+    @apply hidden lg:block lg:space-x-[25px];
+}
+
+/* text-[24px] */
+.navbar-link {
+    @apply font-montserrat font-medium
+    text-[18px] text-[rgba(255,255,255,0.5)] 
+    cursor-pointer transition-all duration-1000 
+    hover:text-[#FFF];
+}
+
+.navbar-button {
+    @apply hidden lg:block;
+}
+
+/* text-[24px] px-[26px] py-[20px] */
+.navbar-button button {
+    @apply bg-[rgba(255,255,255,0.1)] rounded-[20px]
+    px-[22px] py-[16px] font-montserrat font-bold 
+    text-[18px] text-darkTurquoise cursor-pointer 
+    transition-all duration-1000 active:scale-90
+    hover:bg-darkTurquoise hover:text-[#FFF]
+}
+
+.mobile-menu {
+    @apply relative lg:hidden;
+}
+
+/* w-[45px] h-[45px] rounded-[8px] text-[25px] */
+.toggler {
+    @apply w-[35px] h-[35px] rounded-[6px] 
+    bg-[rgba(255,255,255,0.2)] text-[20px] 
+    text-[#FFF] flex justify-center items-center 
+    rotate-[180deg] sm:w-[45px] sm:h-[45px] 
+    sm:rounded-[8px] sm:text-[25px]
+}
+
+.drawer {
+    @apply w-[120px] bg-[#000]/90 rounded-lg shadow-xl 
+    font-bold text-[#FFF] py-6 mt-4 flex flex-col gap-2 
+    items-center absolute right-0 slide-up;
+}
+
+.drawer-link {
+    @apply text-[14px]
+}

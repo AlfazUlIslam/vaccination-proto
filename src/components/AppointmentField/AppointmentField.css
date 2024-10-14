@@ -1,0 +1,19 @@
+.appointment-field {
+    @apply flex justify-start items-center gap-[10px] 
+    xl:justify-center xl:gap-[20px]
+}
+
+.appointment-field-icon {
+    @apply bg-[rgba(255,255,255,0.1)] rounded-[10px] 
+    p-[5px] md:p-[10px]
+}
+
+.appointment-field-name {
+    @apply font-montserrat font-bold text-[14px] 
+    text-[rgba(255,255,255,0.5)] md:text-[20px]
+}
+
+.appointment-field-value {
+    @apply font-montserrat font-bold text-[14px] 
+    text-[#FFF] md:text-[20px]
+}

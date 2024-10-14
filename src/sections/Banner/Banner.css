@@ -1,0 +1,157 @@
+@keyframes slide {
+    0% {
+        top:80%;
+    }
+    50% {
+        top: 20%;
+    }
+    100% {
+        top: 80%;
+    }
+}
+
+.banner {
+    background-image: url("../../assets/banner-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    @apply w-[296px] pt-[127px] mx-auto space-y-[77px] 
+    md:w-[668px] xl:w-[1300px] xl:pt-[210px] xl:space-y-[40px]
+}
+
+.banner-portion-one {
+    @apply flex flex-col gap-[50px] xl:flex-row xl:gap-0
+}
+
+.banner-content {
+    @apply flex flex-col
+}
+
+.banner-title {
+    @apply w-[277px] font-bold text-[12px] font-montserrat 
+    text-darkTurquoise text-start mb-[20px] md:w-[415px] 
+    md:text-[18px] md:mb-[40px] xl:w-[570px] xl:text-[24px]
+}
+
+.banner-heading {
+    @apply w-[276px] font-montserrat font-extrabold text-[24px] 
+    text-[#FFF] text-start md:w-[414px] md:text-[36px] xl:w-[551px]
+    xl:text-[48px]
+}
+
+.banner-heading span {
+    @apply text-darkTurquoise
+}
+
+.banner-description {
+    @apply w-[271px] font-montserrat font-bold text-[14px] 
+    text-[#FFF] mt-[20px] mb-[40px] md:w-[502px] md:text-[20px] 
+    md:my-[40px] xl:w-[600px] xl:text-[24px] xl:my-[50px]
+}
+
+.banner-buttons {
+    @apply flex gap-[20px]
+}
+
+.banner-image {
+    @apply flex-1 relative
+}
+
+.banner-image img {
+    @apply mx-auto
+}
+
+.animated-image-left {
+    animation: slide 6s linear infinite;
+    @apply absolute top-[80%] translate-y-[-80%] left-[-20px] 
+    md:left-[20px]
+}
+
+.animated-image-left img {
+    @apply w-[50px] md:w-[100px] xl:w-auto
+}
+
+.animated-image-right {
+    animation: slide 8s linear infinite;
+    @apply absolute top-[80%] translate-y-[-80%] right-[-6px]
+}
+
+.animated-image-right img {
+    @apply w-[50px] md:w-[100px] xl:w-auto
+}
+
+.specialists {
+    @apply bg-[rgba(255,255,255,0.1)] rounded-[10px] pl-[10px] 
+    py-[10px] pr-[16px] flex gap-[20px] absolute bottom-[-40px] 
+    left-[-20px] md:left-[20px] md:rounded-[20px] md:pl-[20px] 
+    md:py-[20px] md:pr-[33px] xl:rounded-[20px] xl:pl-[20px] 
+    xl:py-[20px] xl:pr-[33px]
+}
+
+.specialists-images {
+    @apply flex space-x-[-8px]
+}
+
+.specialists-images img {
+    @apply w-[38px] md:w-[60px] xl:w-auto
+}
+
+.specialists-content {
+    @apply flex flex-col
+}
+
+.specialists-content .number {
+    @apply font-montserrat font-bold text-[14px] text-[#FFF] 
+    md:text-[20px]
+}
+
+.specialists-content .text {
+    @apply font-montserrat font-bold text-[14px] text-darkTurquoise
+     md:text-[20px]
+}
+
+.banner-portion-two {
+    @apply flex flex-col
+}
+
+.schedule-title {
+    @apply mb-[27px] flex gap-[10px] items-center xl:mb-[10px]
+     xl:gap-[20px]
+}
+
+.schedule-title-image {
+    @apply bg-[rgba(255,255,255,0.1)] rounded-[10px] p-[5px]
+    md:p-[10px]
+}
+
+.schedule-title-text {
+    @apply font-montserrat font-bold text-[14px] text-[#FFF] 
+    md:text-[20px]
+}
+
+.appointment-fields {
+    @apply bg-[rgba(255,255,255,0.1)] border-t-[10px] 
+    border-[rgba(0,0,0,0.3)] rounded-t-[20px] px-[40px] 
+    pt-[56px] pb-[46px] flex flex-col gap-[14px] md:gap-[30px] 
+    xl:flex-row xl:gap-[50px]
+}
+
+.appointment-fields-portion-one {
+    @apply flex flex-col gap-[14px] md:flex-row md:gap-[50px]
+}
+
+.appointment-fields-portion-two {
+    @apply flex flex-col gap-[20px] md:flex-row md:gap-[120px] 
+    xl:gap-[136px]
+}
+
+.appointment-submit-button button {
+    @apply bg-darkTurquoise rounded-[20px] font-montserrat 
+    font-bold text-[14px] text-[#FFF] px-[48px] py-[14px] 
+    border-solid border-2 border-darkTurquoise transition-all 
+    duration-1000 hover:bg-[rgba(255,255,255,0.1)] active:scale-90 
+    md:text-[20px] md:px-[88px] md:py-[20px] xl:px-[25px] xl:py-[16px]
+}
