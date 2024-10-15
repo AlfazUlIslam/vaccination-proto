@@ -1,2 +1,2 @@
 # Vacciantion.ng
-A simple landing page for vaccination reservation
+A simple landing page for vaccination reservation...
