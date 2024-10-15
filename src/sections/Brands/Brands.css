@@ -1,0 +1,7 @@
+.brands-container {
+    @apply w-[326px] py-[6px] mx-auto flex justify-between items-center md:w-[668px] md:py-[11px] xl:w-[1299px] xl:py-[21px]
+}
+
+.brands-container img {
+    @apply w-[72.48px] md:w-[148px] xl:w-[288px]
+}
