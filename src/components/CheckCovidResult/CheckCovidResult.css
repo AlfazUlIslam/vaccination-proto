@@ -1,0 +1,31 @@
+.check-covid-result {
+    @apply pt-[84px] pb-[32px] md:py-[57px]
+}
+
+.check-covid-container {
+    @apply w-[305px] rounded-[20px] bg-[rgba(200,200,200,0.10)] pb-[32px] mx-auto md:w-[667px] md:pb-[45px] xl:w-[1299px] xl:pb-[31px]
+}
+
+.check-covid-title {
+    @apply bg-[rgba(200,200,200,0.05)] rounded-t-[20px] px-[30px] py-[14px] font-montserrat font-bold text-[10px] text-[#FFF] md:px-[98px] md:pt-[18px] md:pb-[13px] md:text-[20px] xl:pl-[93px] xl:py-[36px] xl:text-[24px]
+}
+
+.check-covid-form {
+    @apply pt-[21px] px-[13px] pb-[48px] flex flex-col gap-[20px] md:pt-[40px] md:px-[110px] xl:pt-[35px] xl:px-[93px] xl:pb-[35px] xl:flex-row
+}
+
+.check-covid-form input {
+    @apply w-[280px] h-[50px] bg-[transparent] rounded-[10px] border-[3px] border-[rgba(200,200,200,0.15)] font-montserrat font-medium text-[12px] text-[rgba(200,200,200,0.50)] pl-[23px] focus-within:text-[rgba(255,255,255)] focus-within:outline-none focus-within:border-darkTurquoise md:w-[447px] md:h-[69px] md:rounded-[20px] md:text-[20px] xl:text-[24px]
+}
+
+.check-covid-form button {
+    @apply w-[150px] h-[50px] rounded-[10px] bg-[rgba(200,200,200,0.10)] border-[3px] border-darkTurquoise font-montserrat font-bold text-[14px] text-darkTurquoise transition-all duration-1000 hover:bg-darkTurquoise hover:text-[#FFF] active:scale-90 md:w-[172px] md:h-[64px] md:rounded-[20px] md:text-[20px] xl:text-[24px]
+}
+
+.covid-certificate-text {
+    @apply w-[280px] rounded-[10px] bg-[rgba(200,200,200,0.05)]  font-montserrat font-bold text-[10px] text-darkTurquoise text-center px-[26px] py-[13px] mx-auto md:w-[538px] md:rounded-[20px] md:text-[14px] md:px-[38px] md:py-[20px] xl:w-[1113px] xl:text-[24px] xl:px-[174px]
+}
+
+.covid-certificate-text a {
+    @apply underline
+}

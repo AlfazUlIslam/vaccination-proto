@@ -1,4 +1,4 @@
-import { BannerButton, AppointmentField } from "../../components"
+import { BannerButton, AppointmentField, Brands, CheckCovidResult } from "../../components"
 import { bannerImage, doctorAndVirus, coronavirus, doctorOne, doctorTwo, doctorThree, clock, mapPin, calendar, shield } from "../../assets"
 import "./Banner.css"
 
@@ -81,6 +81,8 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      <Brands />
+      <CheckCovidResult />
     </section>
   )
 }
