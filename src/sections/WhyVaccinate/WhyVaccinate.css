@@ -1,0 +1,57 @@
+.why-vaccinate {
+    @apply bg-[url("../../assets/light-purple-background.png")] bg-cover bg-center bg-no-repeat
+}
+
+.why-vaccinate-container {
+    @apply w-[300px] py-[42px] mx-auto md:w-[628px] md:py-[58px] xl:w-[1296px] xl:py-[80px]
+}
+
+.why-vaccinate-content {
+    @apply mb-[40px] flex flex-col gap-[17px] md:mb-[50px] md:gap-[40px] xl:flex-row xl:gap-[255px]
+}
+
+.why-vaccinate-heading {
+    @apply w-[265px] font-montserrat font-bold text-[24px] text-[#FFF] md:w-[504px] md:text-[36px] xl:w-[503px] xl:text-[48px]
+}
+
+.why-vaccinate-description {
+    @apply w-[300px] font-montserrat font-normal text-[14px] text-[rgba(200,200,200,0.50)] md:w-[536px] md:text-[20px]
+}
+
+.why-vaccinate-cards {
+    @apply flex flex-col gap-[30px] md:gap-[40px] xl:flex-row xl:gap-[75px] xl:items-end
+}
+
+.gray-card {
+    @apply w-[276px] h-[280px] rounded-tl-[20px] rounded-tr-[80px] rounded-b-[20px] bg-[rgba(200,200,200,0.20)] pt-[20px] pl-[20px] md:w-[450px] md:h-[498px] md:rounded-tl-[50px] md:rounded-tr-[150px] md:rounded-b-[50px] md:pt-[40px] md:pl-[40px]
+}
+
+.gray-card-icon {
+    @apply w-[50px] rounded-[10px] bg-[rgba(200,200,200,0.10)] p-[10px] mb-[20px] md:w-[100px] md:rounded-[30px] md:p-[15px] md:mb-[40px]
+}
+
+.gray-card-icon img {
+    @apply w-[30px] md:w-[70px]
+}
+
+.gray-card-title {
+    @apply w-[172px] font-montserrat font-bold text-[14px] text-darkTurquoise md:w-[288px] md:text-[24px]
+}
+
+.gray-card-description {
+    @apply w-[235px] font-montserrat font-medium text-[12px] text-[#FFF] mt-[20px] mb-[25px] md:w-[352px] md:text-[18px] md:mt-[30px] md:mb-[40px]
+}
+
+.gray-card-read-more {
+    @apply flex items-center gap-[5px] md:gap-[10px]
+}
+
+.gray-card-read-more span {
+    @apply font-montserrat font-bold text-[12px] text-darkTurquoise md:text-[18px]
+}
+
+.transparent-cards {
+    @apply flex flex-col gap-[30px] md:flex-row md:gap-[36px] xl:gap-[74px]
+}
+/* 
+*/

@@ -1,0 +1,30 @@
+.why-vacc-trans-card {
+    @apply w-[188px] h-[202px] rounded-[20px] border-[3px] border-[rgba(200,200,200,0.50)] pt-[20px] pl-[20px] md:w-[296px] md:h-[290px] md:rounded-[50px] md:pt-[25px] md:pl-[25px] xl:w-[349px] xl:h-[349px] xl:pt-[40px] xl:pl-[40px]
+}
+
+.why-vacc-trans-card-icon {
+    @apply w-[50px] bg-[rgba(200,200,200,0.10)] rounded-[10px] p-[10px] md:w-[70px] md:rounded-[30px] md:p-[15px]
+}
+
+.why-vacc-trans-card-icon img {
+    @apply w-[30px] md:w-[50px]
+}
+
+.why-vacc-trans-card-content {
+    @apply h-[45%] flex flex-col justify-between mt-[30px] md:mt-[40px]
+}
+
+/* mt-[30px] mb-[20px] md:mt-[40px] md:mb-[20px] */
+.why-vacc-trans-card-title {
+    @apply font-montserrat font-bold text-[14px] text-[#FFF] md:text-[20px] md:text-[24px]
+}
+
+.read-more-link {
+    @apply flex items-center gap-[5px] md:gap-[10px]
+}
+
+.read-more-link span {
+    @apply font-montserrat font-bold text-[14px] text-[rgba(200,200,200,0.50)] md:text-[18px]
+}
+/* 
+*/
