@@ -1,0 +1,31 @@
+footer {
+    @apply bg-[url("../../assets/footer-bg.png")]
+}
+
+.footer-container {
+    @apply pt-[133px] pl-[35px] pb-[30px] flex flex-col gap-[20px] md:pt-[270px] md:pl-[50px] md:pb-[50px] md:gap-[40px] xl:pt-[327px] xl:pl-[67px] xl:pb-[123px] xl:flex-row xl:justify-center xl:gap-[162px]
+}
+
+.footer-logo img {
+    @apply w-[142px] md:w-[200px] xl:w-auto
+}
+
+.footer-links {
+    @apply flex flex-col gap-[10px] md:flex-row md:gap-[25px]
+}
+
+.footer-links a {
+    @apply font-montserrat font-medium text-[14px] text-[#FFF] transition-all duration-1000 hover:text-[rgba(255,255,255,0.50)] md:text-[20px] xl:text-[24px]
+}
+
+.footer-social-links {
+    @apply flex gap-[4px] md:gap-[6px] xl:gap-[8px]
+}
+
+.footer-social-links img {
+    @apply w-[18px] md:w-[31px] xl:w-auto
+}
+
+.footer-social-links a:nth-of-type(4) {
+    @apply ml-[-5px] md:ml-[-8px] xl:ml-[-13px]
+}

@@ -1,5 +1,5 @@
 import {Navbar} from "./components"
-import {Banner, WhyVaccinate, Symptoms, Feedback} from "./sections"
+import {Banner, WhyVaccinate, Symptoms, Feedback, Footer} from "./sections"
 import './App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <WhyVaccinate />
       <Symptoms />
       <Feedback />
-      <div className="py-[30rem] bg-darkPurple"></div>
+      <Footer />
     </div>
   )
 }
