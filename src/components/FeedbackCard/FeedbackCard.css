@@ -1,0 +1,37 @@
+.feedback-card {
+    @apply w-[305px] h-[190px] rounded-[13px] bg-[rgba(200,200,200,0.50)] pt-[23px] pl-[23px] transition-all duration-1000 cursor-pointer hover:bg-darkTurquoise md:w-[400px] md:h-[250px] md:rounded-[20px] md:pt-[30px] md:pl-[30px]
+}
+
+.feedback-card-header {
+    @apply mb-[30px] flex justify-start items-center gap-[15px] md:mb-[40px] md:gap-[20px]
+}
+
+.feedback-card-header img {
+    @apply w-[53px] md:w-[70px]
+}
+
+.feedback-card-name {
+    @apply font-montserrat font-bold text-[13px] text-[#000] transition-all duration-1000 group-hover:text-[#FFF] md:text-[20px]
+}
+
+.feedback-card-address {
+    @apply font-montserrat font-bold text-[9px] text-[rgba(0,0,0,0.50)] transition-all duration-1000 group-hover:text-[rgba(255,255,255,0.75)] md:text-[14px]
+}
+
+.feedback-card-quote {
+    @apply w-[253px] font-montserrat font-medium text-[12px] text-[rgba(0,0,0,0.60)] text-center transition-all duration-1000 group-hover:text-[rgba(255,255,255,0.75)] md:w-[333px] md:text-[18px]
+}
+
+.feedback-card-quote span {
+    @apply transition-all duration-1000 group-hover:text-[rgba(0,0,0,0.75)]
+}
+
+/* 
+feedback-card
+    feedback-card-header
+        feedback-card-image
+        feedback-card-info
+            feedback-card-name
+            feedback-card-address
+    feedback-card-quote
+*/

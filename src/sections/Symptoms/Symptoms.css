@@ -25,12 +25,3 @@
 .symptoms-image img {
     @apply w-[363px] mx-auto md:w-[747px] xl:w-auto
 }
-
-/* 
-symptoms-container
-    symptoms-content
-        symptoms-title
-        symptoms-heading
-        symptoms-description
-    symptoms-image
-*/

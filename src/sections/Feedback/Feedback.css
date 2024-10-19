@@ -1,0 +1,55 @@
+.feedback {
+    @apply bg-[url("../../assets/feedback-bg-mobile.png")] bg-cover bg-center bg-no-repeat
+}
+
+.feedback-container {
+    @apply pt-[30px] pb-[158px] mx-auto relative md:pt-[46px] md:pb-[163px] xl:pt-[57px] xl:pb-[321px]
+}
+
+.feedback-title {
+    @apply font-montserrat font-bold text-[14px] text-darkTurquoise text-center md:text-[20px] xl:text-[24px]
+}
+
+.feedback-heading {
+    @apply mt-[20px] mb-[10px] font-montserrat font-extrabold text-[24px] text-[#000] text-center md:mb-[40px] md:text-[36px] xl:text-[48px]
+}
+
+.feedback-description {
+    @apply w-[248px] mx-auto mb-[16px] font-montserrat font-medium text-[12px] text-[rgba(0,0,0,0.50)] text-center md:w-[580px] md:mb-[60px] md:text-[18px] xl:w-[953px] xl:mb-[100px] xl:text-[24px]
+}
+
+.feedback-cards {
+    @apply flex flex-col items-center gap-[30px] xl:flex-row xl:justify-center xl:gap-[45px]
+}
+
+.feedback-newsletter-container {
+    @apply w-[305px] h-[206px] rounded-[20px] bg-[rgba(200,200,200,0.15)] pt-[31px] pl-[13px] absolute left-[50%] bottom-[-92px] translate-x-[-50%] md:w-[709px] md:h-[320px] md:rounded-[50px] md:pl-[25px] md:bottom-[-216px] xl:w-[1067px] xl:h-[435px] xl:pt-[17px] xl:pl-[19px] xl:bottom-[-220px]
+}
+
+.feedback-newsletter {
+    @apply w-[280px] h-[147px] rounded-[10px] bg-darkTurquoise pt-[16px] pl-[0px] md:w-[659px] md:h-[263px] md:rounded-[50px] xl:w-[1031px] xl:h-[400px] xl:pt-[70px]
+}
+
+.feedback-newsletter-title {
+    @apply font-montserrat font-bold text-[18px] text-[#FFF] text-center md:text-[36px] xl:text-[48px]
+}
+
+.feedback-newsletter-description {
+    @apply mt-[5px] mb-[24px] font-montserrat font-medium text-[10px] text-[#FFF] text-center md:mt-[20px] md:mb-[28px] md:text-[20px] xl:mb-[40px] xl:text-[24px]
+}
+
+.feedback-newsletter-form {
+    @apply pl-[23px] flex items-center md:pl-[68px] xl:pl-[241px]
+}
+
+.feedback-newsletter-input {
+    @apply w-[174px] h-[40px] rounded-l-[20px] pl-[22px] font-montserrat font-medium text-[10px] text-[rgba(0,0,0,0.25)] md:w-[450px] md:h-[75px] md:rounded-l-[30px] md:pl-[40px] md:text-[20px]
+}
+
+.feedback-newsletter-button {
+    @apply w-[58px] h-[40px] rounded-r-[20px] bg-darkPurple pl-[11px] md:w-[100px] md:h-[75px] md:pl-[30px]
+}
+
+.feedback-newsletter-button img {
+    @apply w-[23px] md:w-[40px]
+}
