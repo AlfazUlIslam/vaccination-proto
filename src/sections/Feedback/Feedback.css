@@ -1,5 +1,5 @@
 .feedback {
-    @apply bg-[url("../../assets/feedback-bg-mobile.png")] bg-cover bg-center bg-no-repeat
+    @apply bg-[url("../../assets/feedback-bg-mobile.png")] bg-cover bg-center bg-no-repeat xl:bg-[url("../../assets/feedback-bg-desktop.png")]
 }
 
 .feedback-container {
