@@ -79,7 +79,10 @@ const Feedback = () => {
                             className="feedback-newsletter-input" 
                             placeholder="lenux.ng@gmail.com"
                         />
-                        <button className="feedback-newsletter-button">
+                        <button 
+                            className="feedback-newsletter-button"
+                            onClick={(e) => e.preventDefault()}
+                        >
                             <img src={paperPlane} alt="Paper Plane" />
                         </button>
                     </form>

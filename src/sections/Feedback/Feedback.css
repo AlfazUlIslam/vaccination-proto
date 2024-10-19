@@ -47,7 +47,7 @@
 }
 
 .feedback-newsletter-button {
-    @apply w-[58px] h-[40px] rounded-r-[20px] bg-darkPurple pl-[11px] md:w-[100px] md:h-[75px] md:pl-[30px]
+    @apply w-[58px] h-[40px] rounded-r-[20px] bg-darkPurple pl-[11px] transition-all duration-1000 hover:bg-[#000] active:scale-90 md:w-[100px] md:h-[75px] md:pl-[30px]
 }
 
 .feedback-newsletter-button img {
