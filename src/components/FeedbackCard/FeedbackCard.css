@@ -25,13 +25,3 @@
 .feedback-card-quote span {
     @apply transition-all duration-1000 group-hover:text-[rgba(0,0,0,0.75)]
 }
-
-/* 
-feedback-card
-    feedback-card-header
-        feedback-card-image
-        feedback-card-info
-            feedback-card-name
-            feedback-card-address
-    feedback-card-quote
-*/
