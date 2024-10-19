@@ -1,0 +1,36 @@
+#symptoms {
+    @apply bg-[url("../../assets/symptoms-background.png")]
+}
+
+.symptoms-container {
+    @apply pt-[25px] flex flex-col gap-[30px] md:pt-[40px] md:gap-[60px] xl:gap-[180px]
+}
+
+.symptoms-title {
+    @apply font-montserrat font-bold text-[12px] text-[#FFF] text-center md:text-[20px] xl:text-[24px]
+}
+
+.symptoms-heading {
+    @apply font-montserrat font-extrabold text-[24px] text-[#FFF] text-center my-[10px] md:text-[36px] md:mb-[40px] xl:text-[48px] xl:mt-[20px]
+}
+
+.symptoms-heading span {
+    @apply text-darkTurquoise
+}
+
+.symptoms-description {
+    @apply w-[296px] font-montserrat font-medium text-[12px] text-[rgba(200,200,200,0.50)] text-center mx-auto md:w-[553px] md:text-[18px] xl:w-[953px] xl:text-[24px]
+}
+
+.symptoms-image img {
+    @apply w-[363px] mx-auto md:w-[747px] xl:w-auto
+}
+
+/* 
+symptoms-container
+    symptoms-content
+        symptoms-title
+        symptoms-heading
+        symptoms-description
+    symptoms-image
+*/

@@ -14,7 +14,6 @@
     @apply h-[45%] flex flex-col justify-between mt-[30px] md:mt-[40px]
 }
 
-/* mt-[30px] mb-[20px] md:mt-[40px] md:mb-[20px] */
 .why-vacc-trans-card-title {
     @apply font-montserrat font-bold text-[14px] text-[#FFF] md:text-[20px] md:text-[24px]
 }
