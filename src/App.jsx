@@ -1,5 +1,5 @@
 import {Navbar} from "./components"
-import {Banner, WhyVaccinate, Symptoms, Feedback, Footer} from "./sections"
+import {Banner, WhyVaccinate, Registration, Symptoms, Feedback, Footer} from "./sections"
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Banner />
       <WhyVaccinate />
+      <Registration />
       <Symptoms />
       <Feedback />
       <Footer />

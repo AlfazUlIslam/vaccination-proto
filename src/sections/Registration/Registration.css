@@ -1,0 +1,68 @@
+.registration-container {
+    @apply w-[320px] pt-[35px] pb-[41px] mx-auto md:w-[654px] md:pt-[40px] md:pb-[49px] xl:w-[1296px] xl:pb-[33px]
+}
+
+.registration-heading {
+    @apply w-[230px] mx-auto mb-[20px] font-montserrat font-bold text-[24px] md:w-[586px] md:mb-[40px] md:mx-0 md:text-[36px] xl:w-[452px] xl:mb-[40px] xl:text-[48px]
+}
+
+.registration-content {
+    @apply xl:flex xl:flex-row-reverse xl:gap-[241px]
+}
+
+.registration-image {
+    @apply w-[305px] h-[437px] bg-[url("../../assets/registration-image.png")] bg-cover bg-center bg-no-repeat pt-[338px] pl-[53px] mb-[38px] md:w-[401px] md:h-[575px] md:pt-[421px] md:pl-[80px] md:mb-[70px] xl:mt-[-120px]
+}
+
+.verify-status-button {
+    @apply w-[200px] h-[50px] rounded-[10px] bg-[rgba(200,200,200,0.25)] font-montserrat font-bold text-[14px] text-[#FFF] transition-all duration-1000 hover:bg-[rgba(200,200,200,0.45)] active:scale-90 md:w-[200px] md:h-[50px] md:text-[20px]
+}
+
+.full-name-label {
+    @apply font-montserrat font-bold text-[14px] text-[#000] md:text-[20px] xl:text-[20px] xl:block
+}
+
+.full-name-input {
+    @apply w-[305px] h-[50px] rounded-[10px] bg-[rgba(100,100,100,0.15)] pl-[20px] my-[20px] font-montserrat font-medium text-[14px] text-[rgba(0,0,0,0.25)] focus:outline-none focus:border focus:border-darkTurquoise md:w-[650px] md:h-[70px] md:rounded-[20px] md:pl-[30px] md:mt-[25px] md:mb-[40px] md:text-[20px]
+}
+
+.mobile-number-label {
+    @apply font-montserrat font-bold text-[14px] text-[#000] md:text-[20px] xl:block
+}
+
+.notification-text {
+    @apply w-[320px] my-[20px] font-montserrat font-medium text-[14px] text-[rgba(0,0,0,0.50)] md:w-[654px] md:mt-[25px] md:mb-[20px]
+    md:text-[20px]
+}
+
+.input-group-and-button {
+    @apply mb-[60px] flex flex-col items-start gap-[20px] md:mb-[40px] md:flex-row md:items-center md:gap-[50px]
+}
+
+.input-group {
+    @apply w-[305px] h-[50px] rounded-[10px] bg-[rgba(100,100,100,0.15)] pl-[20px] flex items-center focus-within:border focus-within:border-darkTurquoise md:w-[400px] md:h-[70px] md:rounded-[20px] md:pl-[30px]
+}
+
+.mobile-number-input {
+    @apply bg-[transparent] pl-[20px] focus:outline-none
+}
+
+.verify-button {
+    @apply w-[150px] h-[50px] rounded-[10px] bg-darkTurquoise font-montserrat font-bold text-[14px] text-[#FFF] transition-all duration-1000 hover:shadow-xl active:scale-90 md:w-[201px] md:h-[70px] md:rounded-[20px] md:text-[20px]
+}
+
+.reg-submit-button {
+    @apply w-[305px] h-[50px] rounded-[10px] bg-darkTurquoise font-montserrat font-bold text-[14px] text-[#FFF] transition-all duration-1000 hover:shadow-xl active:scale-90 md:w-[652px] md:h-[64px] md:rounded-[20px] md:text-[20px]
+}
+
+.registration-bottom-links {
+    @apply w-[298px] mt-[20px] flex gap-[20px] md:w-[100%] md:justify-center md:gap-[46px]
+}
+
+.registration-bottom-links a:nth-of-type(1) {
+    @apply font-montserrat font-semibold text-[14px] text-[rgba(0,0,0,0.50)] transition-all duration-1000 hover:text-[rgba(0,0,0,0.60)] md:text-[20px]
+}
+
+.registration-bottom-links a:nth-of-type(2) {
+    @apply font-montserrat font-bold text-[14px] text-darkTurquoise transition-all duration-1000 hover:text-darkPurple md:text-[20px]
+}
